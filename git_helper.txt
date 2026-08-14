@@ -1,0 +1,41 @@
+My new repository:
+https://github.com/SkorobagatiyMykola/english_epam_lab.git
+
+(!) Step by step:
+
+1. Як ініціалізувати/клонувати потрібно виконати наступну команду:  
+	git clone https://github.com/SkorobagatiyMykola/english_epam_lab.git
+
+(!) Після завантаження натисни Enter на новоствореній папці для входу.
+2. В вказані папці потрібно виконати наступні команди:
+git init
+git branch -M main
+git remote add origin https://github.com/SkorobagatiyMykola/english_epam_lab.git
+
+3. Перевір статус в командному рядку:
+git status
+
+4. Додавання змін до індексу:
+	- Усі зміни: 	git add .
+	- Окремий файл: git add filename.ext
+
+(!)
+5. Створення коміту (Commit)
+   Потірбно виконати наступну команду з  описом:Work_with_GIT.doc	
+	git commit -m "My first initial commit"	
+
+
+6. Відправка комітів з привязкою до гілки:
+	- Перша відправка з привязкою до гілки:
+		git push -u origin main
+	- Усі наступні відправки комітів у цю гілку виконуються простою командою:
+		git push		
+
+=========================================================================
+Helper FAR command:
+
+1. Shift+F4 => created file
+2. F3 — перегляд file, 
+3. F4 — редагування file, 
+4. F6 — rename file,
+5. F7 — створення папки
